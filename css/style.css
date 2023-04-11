@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+
 body {
   min-height: 100vh;
   display: flex;
@@ -27,9 +29,9 @@ main {
   border-radius: 1px;
   font-weight: 500;
   font-size: 25px;
-  background-color: rgba(128, 128, 128, 0.345);
+  background-color: rgba(7, 103, 101, 0.452);
   max-width: 500px;
-  text-shadow: -4px 8px 4px rgba(54, 54, 54, 1);
+ 
   box-shadow: 3px 5px #18133453;;
 
 
@@ -37,11 +39,24 @@ main {
 .hora {
   height: 70%;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: rgba(128, 128, 128, 0.345);
+  background-color:  rgba(7, 103, 101, 0.452);
   max-width: 500px;
   border-radius: 1px;
   text-shadow: -4px 8px 4px rgba(54, 54, 54, 1);
   box-shadow: 3px 5px #18133453;;
+  
 }
 
+
+.textoAzul {
+  text-shadow: 0 0 10px blue;
+}
+
+.textoVerde {
+  text-shadow: 0 0 10px greenyellow;
+}
+
+.textoRosa {
+  text-shadow: 0 0 10px pink;
+}
 
