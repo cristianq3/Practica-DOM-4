@@ -57,7 +57,7 @@ function obtenerFechayHora() {
   }
 
   parrafoHora.innerHTML = `${horas}:${minutos}:${segundos} ${ampm}`;
-  parrafoHora.className = "display-1 text-center";
+  parrafoHora.className = "display-1 text-center hora";
 }
 
 setInterval(obtenerFechayHora, 1000);
